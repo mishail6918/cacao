@@ -514,7 +514,11 @@
                       </div>
                       <div class="form-body-gkk">
                         <div class="form-body-gkk__form">
-                          <form action="" method="post">
+                          <form
+                            action=""
+                            onsubmit="sendSimpleEmail(this); return false;"
+                            method="post"
+                          >
                             <input type="hidden" name="task" value="process" />
                             <input type="hidden" name="flow" value="15" />
                             <div class="form-container">
